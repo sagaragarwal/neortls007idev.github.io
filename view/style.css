@@ -31,6 +31,7 @@ hr { margin: 40px 0; border-color: #727878; opacity: 0.2; filter:alpha(opacity=2
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+    height: 100%;
 
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background1.jpg', sizingMethod='scale')";
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background1.jpg', sizingMethod='scale');
@@ -78,7 +79,8 @@ hr { margin: 40px 0; border-color: #727878; opacity: 0.2; filter:alpha(opacity=2
 .container { max-width: 1280px; padding: 40px 180px; }
 
 #profile .row > div { margin-bottom: 20px; }
-#profile .row > div img { width: 100%; max-width: 246px; height: auto; }
+#profile .row > div img { width: 100%; max-width: 246px; height:auto
+; }
 	
 #experiences .experience { margin-bottom: 20px; }
 #experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
