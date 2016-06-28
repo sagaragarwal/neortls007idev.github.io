@@ -33,7 +33,7 @@ hr { margin: 40px 0; border-color: #727878; opacity: 0.2; filter:alpha(opacity=2
 	background-size: cover;
 
 	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background1.jpg', sizingMethod='scale')";
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background1.jpg', sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background1.jpg', sizingMethod=scale);
 	
 	margin-bottom: 0;
 	padding: 0;
