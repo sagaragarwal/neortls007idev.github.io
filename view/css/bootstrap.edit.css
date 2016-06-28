@@ -1,0 +1,25 @@
+.half {
+  position:relative;
+}
+.half:after {
+  content:'';
+  position:absolute;
+  z-index:1;
+  background : white;
+  width: 50%;
+  height: 100%;
+  left: 47%;
+}
+
+.quarter {
+  position:relative;
+}
+.quarter:after {
+  content:'';
+  position:absolute;
+  z-index:1;
+  background:white;
+  width: 75%;
+  height: 110%;
+  left: 27%;
+}
